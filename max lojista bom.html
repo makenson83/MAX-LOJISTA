@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Produtos - Max Lojista</title>
+  <link rel="stylesheet" href="estilo.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fff;
+      color: #000;
+    }
+    header, footer {
+      background: #f2f2f2;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #007bff;
+    }
+    .produtos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+    .produto {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 15px;
+      width: 220px;
+      text-align: center;
+      background: #fafafa;
+      box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+    }
+    .produto img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    button {
+      background-color: #25d366;
+      color: white;
+      border: none;
+      padding: 10px 16px;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    button:hover {
+      background-color: #20b955;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Max Lojista</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="produtos.html">Produtos</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2 style="text-align:center">Produtos</h2>
+    <div class="produtos">
+
+      <div class="produto">
+        <img src="fone-jbl.jpg" alt="Fone JBL" />
+        <p>Fone grande JBL – R$70</p>
+        <a href="https://wa.me/5515991492103?text=Olá, quero comprar o Fone JBL de R$70" target="_blank">
+          <button>Comprar via WhatsApp</button>
+        </a>
+      </div>
+
+      <div class="produto">
+        <img src="redmi-14c.jpg" alt="Celular Redmi 14C" />
+        <p>Celular Redmi 14C – 256GB / 16GB RAM – R$1000</p>
+        <a href="https://wa.me/5515991492103?text=Olá, quero comprar o celular Redmi 14C por R$1000" target="_blank">
+          <button>Comprar via WhatsApp</button>
+        </a>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Max Lojista</p>
+  </footer>
+</body>
+</html>
